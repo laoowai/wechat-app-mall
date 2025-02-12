@@ -1,3 +1,66 @@
+Project Structure
+
+/ (project root)
+├── config.js
+├── app.js
+├── app.json
+├── app.wxss
+├── project.config.json
+├── images/                // common images
+├── lib/                   // common library files (if any)
+├── utils/                 // helper functions (if needed)
+└── pages/
+    ├── index/             // 首页
+    │   ├── index.js
+    │   ├── index.json
+    │   ├── index.wxml
+    │   └── index.wxss
+    ├── list/              // 商品列表
+    │   ├── index.js
+    │   ├── index.json
+    │   ├── index.wxml
+    │   └── index.wxss
+    ├── details/           // 商品详情
+    │   ├── index.js
+    │   ├── index.json
+    │   ├── index.wxml
+    │   └── index.wxss
+    ├── user/              // 个人中心
+    │   ├── index.js
+    │   ├── index.json
+    │   ├── index.wxml
+    │   └── index.wxss
+    ├── order/             // 我的订单
+    │   ├── index.js
+    │   ├── index.json
+    │   ├── index.wxml
+    │   └── index.wxss
+    ├── coupon/            // 优惠券
+    │   ├── index.js
+    │   ├── index.json
+    │   ├── index.wxml
+    │   └── index.wxss
+    ├── cart/              // 购物车
+    │   ├── index.js
+    │   ├── index.json
+    │   ├── index.wxml
+    │   └── index.wxss
+    ├── addressList/       // 我的地址
+    │   ├── index.js
+    │   ├── index.json
+    │   ├── index.wxml
+    │   └── index.wxss
+    └── addressAdd/        // 添加地址
+        ├── index.js
+        ├── index.json
+        ├── index.wxml
+        └── index.wxss
+
+
+
+
+
+
 # 微信小程序实现移动端商城
 
 ## 说明
