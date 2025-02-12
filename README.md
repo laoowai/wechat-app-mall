@@ -1,5 +1,5 @@
 Project Structure
-
+```
 / (project root)
 ├── config.js
 ├── app.js
@@ -55,7 +55,7 @@ Project Structure
         ├── index.json
         ├── index.wxml
         └── index.wxss
-
+```
 
 
 
